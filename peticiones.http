@@ -364,18 +364,18 @@ Content-Type: application/json
 POST {{host}}/horarios
 Content-Type: application/json
 
-{ "claseId": 1, "dia": "lunes", "horaInicio": "07:00", "cupoMaximo": 1, "entrenador": "Ana Lopez" }
+{ "claseId": 1, "dia": "lunes", "horaInicio": "07:00", "cupoMaximo": 1, "entrenador": "Lucerito" }
 
 
 ### P3. Miembro A (el correo no se puede repetir)
 POST {{host}}/miembros
 Content-Type: application/json
 
-{ "nombre": "Prueba Uno", "correo": "uno@itson.mx", "membresia": "basica" }
+{ "nombre": "Luisito", "correo": "uno@itson.mx", "membresia": "basica" }
 
 
 ### P4. Miembro B
 POST {{host}}/miembros
 Content-Type: application/json
 
-{ "nombre": "Prueba Dos", "correo": "dos@itson.mx", "membresia": "plus" }
+{ "nombre": "Pablo", "correo": "dos@itson.mx", "membresia": "plus" }
